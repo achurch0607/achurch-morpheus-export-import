@@ -6,11 +6,11 @@ resource "task" "vs-archive-test" {
   executeTarget = "local"
   lastUpdated = "2022-07-21T10:20:51.000Z"
   options = [
+    { optionType = { code = "shell.sudo" }, value = "on" },
     {
       content = { uuid = "bc9bc712-b6f5-4e56-b599-14b774c4bba1" }
       optionType = { code = "script" }
-    },
-    { optionType = { code = "shell.sudo" }, value = "on" }
+    }
   ]
   resultType = "json"
   taskType = { code = "script" }
