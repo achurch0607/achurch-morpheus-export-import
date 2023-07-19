@@ -1,8 +1,0 @@
-resource "task" "AC Test Date2" {
-  name = "AC Test Date2"
-  uuid = "2141c23f-f2e6-4208-b9bb-5fe89c68dcc7"
-  dateCreated = "2023-07-17T17:23:17.000Z"
-  executeTarget = "resource"
-  lastUpdated = "2023-07-17T17:23:17.000Z"
-  taskType = { code = "script" }
-}
