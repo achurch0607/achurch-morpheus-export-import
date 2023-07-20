@@ -5,7 +5,6 @@ resource "task" "db email" {
   executeTarget = "local"
   lastUpdated = "2022-01-25T20:50:27.000Z"
   options = [
-    { optionType = { code = "emailSubject" }, value = "DB Email" },
     {
       optionType = { code = "emailAddress" }
       value = "djb@alumni.rice.edu"
@@ -13,7 +12,8 @@ resource "task" "db email" {
     {
       content = { uuid = "72e3a684-8381-4e48-94c4-25d09a56c908" }
       optionType = { code = "emailBody" }
-    }
+    },
+    { optionType = { code = "emailSubject" }, value = "DB Email" }
   ]
   taskType = { code = "email" }
 }
