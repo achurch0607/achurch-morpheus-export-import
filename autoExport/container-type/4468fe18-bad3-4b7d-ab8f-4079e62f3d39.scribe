@@ -11,8 +11,8 @@ resource "container-type" "4468fe18-bad3-4b7d-ab8f-4079e62f3d39" {
   checkTypeCode = "webGetCheck"
   containerLogs = [ { uuid = "96335bd2-a231-418f-a45a-95cf226df27e" } ]
   containerMounts = [
-    { code = "template: e5ba79f9-d24d-41be-8da7-f00a7080b6fe" },
-    { uuid = "1ddf68be-5ffa-4304-98e2-602ee9e2657d" }
+    { uuid = "1ddf68be-5ffa-4304-98e2-602ee9e2657d" },
+    { code = "template: e5ba79f9-d24d-41be-8da7-f00a7080b6fe" }
   ]
   containerPorts = [
     { uuid = "78c524fd-8ea1-46c9-95e7-13b3bb7d4e2a" },
