@@ -6,11 +6,11 @@ resource "task" "api-task-bash-variables" {
   executeTarget = "local"
   lastUpdated = "2023-03-06T23:28:12.000Z"
   options = [
-    { optionType = { code = "shell.sudo" }, value = "on" },
     {
       content = { uuid = "4760ce53-c527-42f3-9be8-b14b13593d13" }
       optionType = { code = "script" }
-    }
+    },
+    { optionType = { code = "shell.sudo" }, value = "on" }
   ]
   taskType = { code = "script" }
 }
