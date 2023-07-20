@@ -5,11 +5,11 @@ resource "task" "PreReq SCAP Windows" {
   executeTarget = "resource"
   lastUpdated = "2021-11-16T19:08:52.000Z"
   options = [
-    { optionType = { code = "winrm.elevated" }, value = "on" },
     {
       content = { uuid = "607a08a6-859e-488b-936d-c2adb287fb06" }
       optionType = { code = "script" }
-    }
+    },
+    { optionType = { code = "winrm.elevated" }, value = "on" }
   ]
   taskType = { code = "winrmTask" }
 }
