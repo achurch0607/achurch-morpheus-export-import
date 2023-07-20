@@ -5,11 +5,11 @@ resource "task" "a Sudo Test 1" {
   executeTarget = "resource"
   lastUpdated = "2021-02-19T23:11:17.000Z"
   options = [
+    { optionType = { code = "shell.sudo" }, value = "on" },
     {
       content = { uuid = "9e95533c-2b4c-4d6e-98c5-255d8179462d" }
       optionType = { code = "script" }
-    },
-    { optionType = { code = "shell.sudo" }, value = "on" }
+    }
   ]
   taskType = { code = "script" }
 }
