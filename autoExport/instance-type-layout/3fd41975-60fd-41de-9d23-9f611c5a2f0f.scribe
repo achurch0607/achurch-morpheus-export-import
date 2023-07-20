@@ -8,5 +8,5 @@ resource "instance-type-layout" "3fd41975-60fd-41de-9d23-9f611c5a2f0f" {
   memoryRequirement = 0
   provisionType = { code = "terraform" }
   specTemplates = [ { uuid = "a34f3eb2-5d99-421f-ba16-031c331a4fd6" } ]
-  taskSets = [ { name = "AC Post Provision" } ]
+  taskSets = [ { name = "Ansible: Tags" } ]
 }
