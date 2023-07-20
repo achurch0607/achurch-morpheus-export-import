@@ -5,13 +5,13 @@ resource "task" "dand" {
   executeTarget = "remote"
   lastUpdated = "2022-04-20T00:02:55.000Z"
   options = [
-    { optionType = { code = "port" }, value = "22" },
     { optionType = { code = "host" }, value = "8.29.154.56" },
-    { optionType = { code = "username" }, value = "root" },
+    { optionType = { code = "port" }, value = "22" },
     {
       content = { uuid = "a0ffd994-02d5-469b-a715-ce7371ef685c" }
       optionType = { code = "script" }
-    }
+    },
+    { optionType = { code = "username" }, value = "root" }
   ]
   taskType = { code = "script" }
 }
