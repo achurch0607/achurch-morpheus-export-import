@@ -7,15 +7,15 @@ resource "task" "ssh" {
   labels = [ "temp" ]
   lastUpdated = "2023-06-14T00:00:10.000Z"
   options = [
-    { optionType = { code = "host" }, value = "54.67.125.24" },
+    { optionType = { code = "sshKey" }, value = { name = "QA Key" } },
     { optionType = { code = "port" }, value = "22" },
+    { optionType = { code = "host" }, value = "54.67.125.24" },
+    { optionType = { code = "username" }, value = "cloudinit" },
+    { optionType = { code = "shell.sudo" }, value = "on" },
     {
       content = { uuid = "8eb1b775-c803-40e7-9ed4-ae11a679ee93" }
       optionType = { code = "script" }
-    },
-    { optionType = { code = "shell.sudo" }, value = "on" },
-    { optionType = { code = "sshKey" }, value = { name = "QA Key" } },
-    { optionType = { code = "username" }, value = "cloudinit" }
+    }
   ]
   resultType = "keyValue"
   taskType = { code = "script" }
