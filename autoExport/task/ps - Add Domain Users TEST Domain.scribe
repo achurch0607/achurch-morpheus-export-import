@@ -5,11 +5,11 @@ resource "task" "ps - Add Domain Users TEST Domain" {
   executeTarget = "resource"
   lastUpdated = "2022-03-30T19:55:19.000Z"
   options = [
-    { optionType = { code = "winrm.elevated" }, value = "on" },
     {
       content = { uuid = "9ac09d68-80a1-47ca-ad30-c0aaff3eeb83" }
       optionType = { code = "script" }
-    }
+    },
+    { optionType = { code = "winrm.elevated" }, value = "on" }
   ]
   taskType = { code = "winrmTask" }
 }
