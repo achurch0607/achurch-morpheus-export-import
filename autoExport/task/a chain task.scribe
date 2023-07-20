@@ -5,11 +5,11 @@ resource "task" "a chain task" {
   executeTarget = "resource"
   lastUpdated = "2020-03-25T22:15:55.000Z"
   options = [
-    { optionType = { code = "shell.sudo" }, value = "on" },
     {
       content = { uuid = "5486f07b-a42f-48cf-90dd-63f40d4642dc" }
       optionType = { code = "script" }
-    }
+    },
+    { optionType = { code = "shell.sudo" }, value = "on" }
   ]
   taskType = { code = "script" }
 }
