@@ -1,0 +1,13 @@
+resource "task-set" "InstallerCentOS7_AmazonLinux2" {
+  name = "InstallerCentOS7_AmazonLinux2"
+  uuid = "e6fe9ab6-789d-4569-a4a9-2a6f8f85144f"
+  dateCreated = "2023-10-09T22:24:51.000Z"
+  description = "Setup CentOS 7 or Amazon Linux 2 appliance"
+  labels = [ "installer" ]
+  lastUpdated = "2023-11-21T22:42:37.000Z"
+  taskSetTasks = [
+    { uuid = "5de671b6-eec1-45cf-8ae0-10e695d1ac0f" },
+    { uuid = "e96a7311-aa8d-46a4-b68a-7a811710f82a" },
+    { uuid = "ee62e8a4-5e9e-4463-adcf-acddfc5ebe6b" }
+  ]
+}

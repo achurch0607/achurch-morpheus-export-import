@@ -1,0 +1,16 @@
+resource "task-set" "InstallerSUSE15" {
+  name = "InstallerSUSE15"
+  uuid = "6bd6eff8-8255-40f6-9e3e-db4bb8e69d91"
+  dateCreated = "2023-10-10T19:11:14.000Z"
+  description = "Setup SUSE 15 appliance"
+  labels = [ "installer" ]
+  lastUpdated = "2023-11-21T22:54:55.000Z"
+  taskSetTasks = [
+    { uuid = "19835345-e02d-4168-8a02-182c21cac068" },
+    { uuid = "56850f3b-a2b9-4e19-ac29-3be68554fa9a" },
+    { uuid = "a608031c-1254-4ac5-ba5b-66ef90c460f4" },
+    { uuid = "a9cab23c-4da2-4993-8bfa-e48a33ffd349" },
+    { uuid = "f0a6c66e-c5b4-4b41-8da9-e12bed408d49" },
+    { uuid = "f24fa9f8-7a9d-4842-af8a-db745be6848d" }
+  ]
+}

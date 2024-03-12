@@ -1,0 +1,5 @@
+resource "task-set-task" "a9cab23c-4da2-4993-8bfa-e48a33ffd349" {
+  uuid = "a9cab23c-4da2-4993-8bfa-e48a33ffd349"
+  task = { name = "Installer SUSE15 Part 2" }
+  taskOrder = 3
+}

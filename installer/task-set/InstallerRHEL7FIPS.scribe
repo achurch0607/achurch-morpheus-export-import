@@ -1,0 +1,18 @@
+resource "task-set" "InstallerRHEL7FIPS" {
+  name = "InstallerRHEL7FIPS"
+  uuid = "6ddc2c32-b0a4-4266-b944-e4795a7a6ef0"
+  dateCreated = "2023-11-20T20:22:44.000Z"
+  description = "Setup RHEL 7 FIPS appliance"
+  labels = [ "installer" ]
+  lastUpdated = "2023-11-21T22:44:53.000Z"
+  taskSetTasks = [
+    { uuid = "27c33d72-976e-464f-a08f-95da8bc8a715" },
+    { uuid = "5212ad9a-7cf0-45c7-aceb-3211ea4b7806" },
+    { uuid = "88fe7126-58b0-463b-95a9-ea4b50e25d5a" },
+    { uuid = "90c39e14-2212-476d-ab01-a1e76bf0fb7e" },
+    { uuid = "91bd99e3-2493-4b90-8b37-9117ace46880" },
+    { uuid = "9818ff40-549b-4c26-b33e-5090d9c98883" },
+    { uuid = "cd202f18-b165-4ed2-851a-dbb8059876b2" },
+    { uuid = "ce7b7575-7f4e-477c-99ce-4d46ccbcd2da" }
+  ]
+}

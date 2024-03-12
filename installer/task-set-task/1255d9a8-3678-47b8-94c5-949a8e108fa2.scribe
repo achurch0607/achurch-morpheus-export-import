@@ -1,0 +1,4 @@
+resource "task-set-task" "1255d9a8-3678-47b8-94c5-949a8e108fa2" {
+  uuid = "1255d9a8-3678-47b8-94c5-949a8e108fa2"
+  task = { name = "Installer CentOS7" }
+}

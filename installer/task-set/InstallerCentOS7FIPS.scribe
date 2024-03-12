@@ -1,0 +1,18 @@
+resource "task-set" "InstallerCentOS7FIPS" {
+  name = "InstallerCentOS7FIPS"
+  uuid = "80667844-8830-4dfd-b117-593f016dd58e"
+  dateCreated = "2023-11-15T20:57:40.000Z"
+  description = "Setup CentOS 7 FIPS appliance"
+  labels = [ "installer" ]
+  lastUpdated = "2023-11-21T22:44:30.000Z"
+  taskSetTasks = [
+    { uuid = "1255d9a8-3678-47b8-94c5-949a8e108fa2" },
+    { uuid = "153347c3-c64b-4ce9-a5eb-95425af4463f" },
+    { uuid = "47bb1cd8-0040-4fdc-9850-d6ef4fcaff19" },
+    { uuid = "5ddaf5cf-436d-4ac6-8ac0-aa3726b6b6a0" },
+    { uuid = "63891c0e-51bd-454e-b5f3-11b97d8cacc5" },
+    { uuid = "7fdc12bb-23ee-4291-a711-530f2eef52ca" },
+    { uuid = "a409080d-2299-4f74-9553-cf68a404603d" },
+    { uuid = "a6a88439-6caa-4054-b98b-52cab9f9b18b" }
+  ]
+}

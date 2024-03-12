@@ -1,0 +1,18 @@
+resource "task-set" "InstallerSupplementalCentOS7FIPS" {
+  name = "InstallerSupplementalCentOS7FIPS"
+  uuid = "aca40eff-c8f9-4e2f-9cb8-673b1a08f501"
+  dateCreated = "2023-11-20T21:21:49.000Z"
+  description = "Setup CentOS 7 FIPS appliance via supplemental installer"
+  labels = [ "installer" ]
+  lastUpdated = "2023-11-21T22:46:48.000Z"
+  taskSetTasks = [
+    { uuid = "0ae6dc79-03b2-41b5-91bf-7f460ffc87e2" },
+    { uuid = "2bd68f6b-b864-4dc5-a859-50683c91d84a" },
+    { uuid = "5f526788-3724-4b16-a712-913d46f0ad87" },
+    { uuid = "7e9a6dcc-27d1-4afc-9ff2-44b9db84aa0f" },
+    { uuid = "9362bab3-05b4-4199-adcf-e5138ed9845c" },
+    { uuid = "b0d2b0b4-0174-42d2-b43c-d275ce0bb3ad" },
+    { uuid = "c010d179-c267-42be-bfac-6e07540e07f3" },
+    { uuid = "c97dbdc1-9ddc-4578-a3d9-a01df673f3cb" }
+  ]
+}
