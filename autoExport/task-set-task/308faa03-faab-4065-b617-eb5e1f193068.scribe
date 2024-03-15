@@ -1,6 +1,0 @@
-resource "task-set-task" "308faa03-faab-4065-b617-eb5e1f193068" {
-  uuid = "308faa03-faab-4065-b617-eb5e1f193068"
-  task = { code = "acTestDate" }
-  taskOrder = 3
-  taskPhase = "preDeploy"
-}

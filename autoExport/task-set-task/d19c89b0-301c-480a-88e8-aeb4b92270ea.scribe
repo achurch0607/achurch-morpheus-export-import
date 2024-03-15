@@ -1,6 +1,0 @@
-resource "task-set-task" "d19c89b0-301c-480a-88e8-aeb4b92270ea" {
-  uuid = "d19c89b0-301c-480a-88e8-aeb4b92270ea"
-  task = { code = "acTestDate" }
-  taskOrder = 4
-  taskPhase = "deploy"
-}

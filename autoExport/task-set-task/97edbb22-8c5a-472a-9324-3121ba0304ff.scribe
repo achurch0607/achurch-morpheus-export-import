@@ -1,5 +1,0 @@
-resource "task-set-task" "97edbb22-8c5a-472a-9324-3121ba0304ff" {
-  uuid = "97edbb22-8c5a-472a-9324-3121ba0304ff"
-  task = { code = "acTestDate" }
-  taskPhase = "preProvision"
-}

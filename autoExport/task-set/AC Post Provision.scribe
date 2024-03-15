@@ -1,8 +1,0 @@
-resource "task-set" "AC Post Provision" {
-  name = "AC Post Provision"
-  uuid = "909c2e15-124e-4ba5-a5ae-0d6949f0cd6f"
-  dateCreated = "2023-06-29T14:32:59.000Z"
-  labels = [ "AdamC" ]
-  lastUpdated = "2023-07-20T14:59:10.000Z"
-  taskSetTasks = [ { uuid = "eb125458-72c6-4f71-8c6c-124b7f19498b" } ]
-}

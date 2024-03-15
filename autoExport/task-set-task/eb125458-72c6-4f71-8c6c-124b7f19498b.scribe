@@ -1,4 +1,0 @@
-resource "task-set-task" "eb125458-72c6-4f71-8c6c-124b7f19498b" {
-  uuid = "eb125458-72c6-4f71-8c6c-124b7f19498b"
-  task = { code = "acTestDate" }
-}

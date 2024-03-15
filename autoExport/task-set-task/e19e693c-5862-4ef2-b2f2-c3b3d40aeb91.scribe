@@ -1,6 +1,0 @@
-resource "task-set-task" "e19e693c-5862-4ef2-b2f2-c3b3d40aeb91" {
-  uuid = "e19e693c-5862-4ef2-b2f2-c3b3d40aeb91"
-  task = { code = "acTestDate" }
-  taskOrder = 5
-  taskPhase = "shutdown"
-}

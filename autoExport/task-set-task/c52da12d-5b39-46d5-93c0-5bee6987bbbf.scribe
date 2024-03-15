@@ -1,6 +1,0 @@
-resource "task-set-task" "c52da12d-5b39-46d5-93c0-5bee6987bbbf" {
-  uuid = "c52da12d-5b39-46d5-93c0-5bee6987bbbf"
-  task = { code = "acTestDate" }
-  taskOrder = 6
-  taskPhase = "startup"
-}
