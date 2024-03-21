@@ -1,0 +1,67 @@
+resource "option-type-form" "actestform" {
+  code = "actestform"
+  name = "ac-test-form"
+  uuid = "9b67aadb-a64a-4ef3-a1d1-de4fc65fb87c"
+  config = {
+    enableVar = false
+    form = ""
+    formField = ""
+    formOptions = ""
+    formType = "static"
+  }
+  options = [
+    {
+      code = "acyesno"
+      name = "AC Yes No"
+      uuid = "ed8ebba8-3d43-4d06-b531-32cfb9564c0e"
+      fieldContext = "config.customOptions"
+      fieldLabel = "yes no"
+      fieldName = "acyesno"
+      optionList = { name = "Yes No" }
+      optionSource = "list"
+      type = "select"
+    },
+    {
+      code = "acColors"
+      name = "AC Colors"
+      uuid = "5ce2b703-801e-4bfe-94d5-1a1f3010de2e"
+      config = { _multiSelect = "" }
+      dependsOnCode = "acyesno:yes"
+      displayOrder = 3
+      displayValueOnDetails = true
+      fieldContext = "config.customOptions"
+      fieldLabel = "Colors"
+      fieldName = "acColors"
+      noBlank = true
+      optionList = { name = "AC Test Colors List" }
+      optionSource = "list"
+      type = "select"
+    },
+    {
+      code = "acrestlist"
+      name = "ac rest list"
+      uuid = "4fa5978c-c088-48ec-8c6c-ebda78e9edf1"
+      displayOrder = 1
+      fieldContext = "config.customOptions"
+      fieldLabel = "ac rest"
+      fieldName = "acrestlist"
+      optionList = { name = "ac rest list" }
+      optionSource = "list"
+      required = true
+      type = "select"
+    },
+    {
+      code = "actruefalse"
+      name = "ac true false"
+      uuid = "0dabef1f-525c-426a-aa54-6ae3f4bdc793"
+      defaultValue = "false"
+      displayValueOnDetails = true
+      fieldContext = "config.customOptions"
+      fieldLabel = "True or False"
+      fieldName = "actruefalse"
+      optionList = { name = "ac true false" }
+      optionSource = "list"
+      type = "select"
+    }
+  ]
+}
