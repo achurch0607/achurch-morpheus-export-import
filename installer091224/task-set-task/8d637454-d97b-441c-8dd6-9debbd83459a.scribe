@@ -1,0 +1,5 @@
+resource "task-set-task" "8d637454-d97b-441c-8dd6-9debbd83459a" {
+  uuid = "8d637454-d97b-441c-8dd6-9debbd83459a"
+  task = { name = "Installer Check FIPS CentOS7/RHEL7" }
+  taskOrder = 6
+}
