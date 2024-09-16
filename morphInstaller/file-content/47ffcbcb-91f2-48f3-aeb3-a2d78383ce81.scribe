@@ -1,0 +1,12 @@
+resource "file-content" "47ffcbcb-91f2-48f3-aeb3-a2d78383ce81" {
+  uuid = "47ffcbcb-91f2-48f3-aeb3-a2d78383ce81"
+  content = <<EOFSCRIBE
+pkill PackageKit
+yum update -y -q > /dev/null
+yum install wget -y -q > /dev/null
+yum install net-tools -y -q > /dev/null
+yum install dnf-plugins-core -y -q > /dev/null
+EOFSCRIBE
+  dateCreated = "2023-11-13T21:20:15.000Z"
+  lastUpdated = "2023-12-13T20:46:25.000Z"
+}

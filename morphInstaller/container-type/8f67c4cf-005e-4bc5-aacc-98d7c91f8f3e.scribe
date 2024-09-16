@@ -1,0 +1,15 @@
+resource "container-type" "8f67c4cf-005e-4bc5-aacc-98d7c91f8f3e" {
+  code = "8f67c4cf-005e-4bc5-aacc-98d7c91f8f3e"
+  name = "Oracle Cloud Oracle Linux 7.9"
+  uuid = "4daff090-e9a6-4cf2-9491-c47c449104ef"
+  containerVersion = "7"
+  entryPoint = ""
+  logTypeCode = "vm"
+  provisionType = { code = "oraclecloud" }
+  repositoryImage = ""
+  serverType = "vm"
+  shortName = "oraclelinux"
+  showServerLogs = true
+  statTypeCode = "vm"
+  virtualImage = { uuid = "0b4f22d1-c7ea-4bc5-91d1-d1268eabe950" }
+}
