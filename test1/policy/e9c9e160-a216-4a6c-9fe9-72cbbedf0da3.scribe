@@ -1,0 +1,8 @@
+resource "policy" "e9c9e160-a216-4a6c-9fe9-72cbbedf0da3" {
+  name = "2 delayed delete"
+  uuid = "e9c9e160-a216-4a6c-9fe9-72cbbedf0da3"
+  config = { removalAge = "30" }
+  enabled = false
+  policyHash = "a40f1c72a0b5a4643147ca80ba4213cc2c61e487657dd2ef63d50ae3"
+  policyType = { code = "delayedRemoval" }
+}
