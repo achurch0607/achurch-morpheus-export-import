@@ -1,0 +1,7 @@
+resource "policy" "ee952df1-483f-41b5-8c6c-1d9eae5ad5e7" {
+  name = "2 backtarget"
+  uuid = "ee952df1-483f-41b5-8c6c-1d9eae5ad5e7"
+  config = { backupStorageIds = [ [ 66695 ] ] }
+  policyHash = "7854ebe92ec3e5aef99b1feb920da3567c189205eb1fe81341f5766e"
+  policyType = { code = "backupStorage" }
+}
