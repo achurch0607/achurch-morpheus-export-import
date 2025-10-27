@@ -1,0 +1,10 @@
+resource "policy" "08ade083-bbec-4594-97d5-9aa0062f2b12" {
+  name = "Backup"
+  uuid = "08ade083-bbec-4594-97d5-9aa0062f2b12"
+  config = { createBackup = false, createBackupType = "user" }
+  description = "Backup Creation"
+  policyHash = "031610dcaa0ce3dbe7c91cc3d0b8f086ef0850301bedbad0fd44432d"
+  policyType = { code = "createBackup" }
+  refId = 41
+  refType = "ComputeSite"
+}
